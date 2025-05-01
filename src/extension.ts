@@ -10,7 +10,6 @@ export function deactivate(): void {}
 
 async function wrap(editor: TextEditor): Promise<void> {
 	const selection = editor.selection;
-	if (selection.isEmpty) return;
 
 	const cursors: Selection[] = [];
 

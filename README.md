@@ -6,8 +6,8 @@
 
 ---
 
-Select target elements/components, `Ctrl+Alt+W` and... _voilà_! They're wrapped
-with tags for you to fill.
+Select target elements/components (or nothing), `Ctrl+Alt+W` and... _voilà_!
+They're wrapped with tags for you to fill.
 
 This is intended to fix some other buggy extensions doing the same, making this
 more consistent and stable.

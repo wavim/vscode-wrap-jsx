@@ -2,7 +2,7 @@
 	"name": "wrap-jsx",
 	"displayName": "Wrap JSX",
 	"description": "Simple JSX Selection Wrapper",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "carbonsoda",
 	"author": {
 		"name": "David W."
@@ -41,13 +41,13 @@
 				"title": "Wrap",
 				"category": "Wrap JSX",
 				"command": "wrap-jsx.wrap",
-				"enablement": "editorHasSelection && (editorLangId == html || editorLangId == javascriptreact || editorLangId == typescriptreact || editorLangId == vue)"
+				"enablement": "editorLangId == html || editorLangId == javascriptreact || editorLangId == typescriptreact || editorLangId == vue"
 			}
 		],
 		"keybindings": [
 			{
 				"command": "wrap-jsx.wrap",
-				"when": "editorHasSelection && (editorLangId == html || editorLangId == javascriptreact || editorLangId == typescriptreact || editorLangId == vue)",
+				"when": "editorLangId == html || editorLangId == javascriptreact || editorLangId == typescriptreact || editorLangId == vue",
 				"key": "Ctrl+Alt+W"
 			}
 		]
