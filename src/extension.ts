@@ -18,7 +18,10 @@ async function wrap(editor: TextEditor): Promise<void> {
 		edit.insert(selection.end, "</>");
 
 		const insertOpenPos = selection.start.translate(0, 1);
-		const insertClosePos = selection.end.translate(0, 2);
+		const insertClosePos = selection.end.translate(
+			0,
+			selection.isEmpty ? 4 : 2,
+		);
 
 		const openCursor = new Selection(insertOpenPos, insertOpenPos);
 		const closeCursor = new Selection(insertClosePos, insertClosePos);
