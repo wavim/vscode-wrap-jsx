@@ -2,7 +2,7 @@
 	"name": "wrap-jsx",
 	"displayName": "Wrap JSX",
 	"description": "Simple JSX Selection Wrapper",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"publisher": "carbonsoda",
 	"author": {
 		"name": "David W."
