@@ -1,5 +1,5 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/CarbonicSoda/vscode-wrap-jsx/master/media/icon.png" width="130" alt="VSCode Wrap JSX Icon" />
+	<img src="https://raw.githubusercontent.com/wavim/vscode-wrap-jsx/master/media/icon.png" width="130" alt="VSCode Wrap JSX Icon" />
 	<p></p>
   Wrap JSX for VSCode
 </h3>

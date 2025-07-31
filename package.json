@@ -7,14 +7,14 @@
 	"author": {
 		"name": "David W."
 	},
-	"homepage": "https://github.com/CarbonicSoda/vscode-wrap-jsx",
+	"homepage": "https://github.com/wavim/vscode-wrap-jsx",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/CarbonicSoda/vscode-wrap-jsx"
+		"url": "https://github.com/wavim/vscode-wrap-jsx"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/CarbonicSoda/vscode-wrap-jsx/issues",
+		"url": "https://github.com/wavim/vscode-wrap-jsx/issues",
 		"email": "carbonsoda@outlook.com"
 	},
 	"engines": {
